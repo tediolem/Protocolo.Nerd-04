@@ -1,0 +1,84 @@
+body {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+header {
+    font-size: 70px ;
+    display: flex;
+    justify-content: center; 
+    color: rgb(0, 0, 0);
+    font-family: "New Amsterdam", sans-serif
+ }
+
+ section {
+    font-family: "Chakra Petch", sans-serif;  
+}
+
+
+h1 {
+    font-size: 43px ;
+    display: flex;
+    justify-content: center; 
+    color: rgb(0, 0, 0);
+    font-family: "Chakra Petch", sans-serif;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-left: 200px;
+    margin-right: 200px; }
+
+body {
+    background: linear-gradient(-45deg, #000000, #336de9,#7d38ec, #7981ce, #000000);
+    background-size: 570% 570%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.PERSONAGEM {
+    height: 500px;
+    margin: auto;
+    display: flex;
+    width: 20%
+}
+
+.PERSONAGEM2 {
+    height: 500px;
+    margin: auto;
+    display: flex;
+    width: 20%
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 300px;
+}
+
+.imagens {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+
